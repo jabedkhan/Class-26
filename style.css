@@ -16,6 +16,50 @@ img{
 
 /* Start Templete */
 
+.first-section{}
+.first-section .about{}
+.first-section .about h6 {
+	color: #6391ef;
+	margin-bottom: 20px;
+}
+.first-section .about h2 {
+	font-size: 45px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	position: relative;
+}
+.first-section .about h2::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 62px;
+	height: 3px;
+	background-color: #4a72ec;
+}
+.first-section .about p{
+	color: #9c96a7;
+	font-size: 19px;
+	font-weight: 500;
+    margin-top: 20px;
+}
+.logo {
+	border: 1px solid #ddd;
+	align-items: center;
+	height: 165px;
+	display: flex;
+	justify-content: center;
+	transition: .4s;
+}
+.logo:hover{
+	background-color: #f6f9fd;
+}
+
+
+
+
+
+
 .about-section{
     padding: 70px 0;
 }
